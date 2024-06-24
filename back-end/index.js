@@ -8,7 +8,7 @@ import grupoPedidosRoute from './route/grupoPedidos.js'
 import pedidoRoute from './route/pedidos.js'
 import produtoRoute from './route/produtos.js'
 
-const PORT = process.env.DB_PORT
+const PORT = 5000//process.env.DB_PORT
 const app = express();
 
 app.use(express.json());
